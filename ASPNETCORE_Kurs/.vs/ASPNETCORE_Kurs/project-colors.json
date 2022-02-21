@@ -30,7 +30,22 @@
       "ProjectGuid": "2fa33a9c-cb1a-41b2-9347-7d36dc419bb3",
       "DisplayName": "WebFormDefaultProject",
       "ColorIndex": 4
+    },
+    "bfafec63-f30c-469a-a1da-cd6853872cc9": {
+      "ProjectGuid": "bfafec63-f30c-469a-a1da-cd6853872cc9",
+      "DisplayName": "RazorPageInNET5",
+      "ColorIndex": 5
+    },
+    "a56a43b3-e848-42d9-b22d-6de26d1e9e85": {
+      "ProjectGuid": "a56a43b3-e848-42d9-b22d-6de26d1e9e85",
+      "DisplayName": "WebAPIDefaultProject",
+      "ColorIndex": 6
+    },
+    "3cfbcf0f-3e1b-467d-93ab-92c209beaa48": {
+      "ProjectGuid": "3cfbcf0f-3e1b-467d-93ab-92c209beaa48",
+      "DisplayName": "BlazorAppDefaultProject",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 8
 }

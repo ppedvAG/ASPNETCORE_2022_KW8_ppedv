@@ -25,7 +25,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.MapBlazorHub();
+app.MapBlazorHub(); //Navigation zwishcenn Blazor-Pages 
 app.MapFallbackToPage("/_Host");
 
 app.Run();

@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorAppDefaultProject
+build_property.RootNamespace = BlazorAppDefaultProject
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\BlazorAppDefaultProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\BlazorAppDefaultProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yc6p64q1vq
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cj8p0yi92e
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/BlazorAppDefaultProject/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

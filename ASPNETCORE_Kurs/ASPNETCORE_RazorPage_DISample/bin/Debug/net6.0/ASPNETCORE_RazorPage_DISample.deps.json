@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ASPNETCORE_RazorPage_DISample/1.0.0": {
+        "runtime": {
+          "ASPNETCORE_RazorPage_DISample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASPNETCORE_RazorPage_DISample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

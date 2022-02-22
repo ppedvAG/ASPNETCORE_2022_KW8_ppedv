@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9kf9NZKDK1fpkjmbuxvMzjiyBHcPw7rbRqIBopKIOvc30IyTDfRlJ3WsBfqclyQaaFp7aEAmEUsjb+Q9RuG3Xw==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCORE_2022_KW8_ppedv\\ASPNETCORE_Kurs\\DependencyInjectionSample\\002_DependencyInjectionSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

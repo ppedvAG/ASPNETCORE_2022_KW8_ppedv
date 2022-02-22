@@ -5,7 +5,9 @@
 
 //WebApplication Initialsiert
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+
 
 //Wäre eigentlich in der Startup->public
 //void ConfigureServices(IServiceCollection services)

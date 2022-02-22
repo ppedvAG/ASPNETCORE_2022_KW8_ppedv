@@ -27,13 +27,14 @@ namespace MVCDefaultProject.cs.Controllers
            
             toDoList.Add(new ToDo() { Id = 1, WorkName = "Katze füttern", IsDone=false });
             toDoList.Add(new ToDo() { Id = 2, WorkName = "PC kaufen", IsDone = false });
-
+            _logger.LogInformation("Call Index Site");
 
             return View(toDoList); //MVC verwendet keine Properties und muss seine Daten via return View(/*Daten*/) übermitteln
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy([FromServices] ILogger<HomeController> myPrivacyLogger)
         {
+            myPrivacyLogger.LogInformation("Call Pricavy Page");
             return View();
         }
 

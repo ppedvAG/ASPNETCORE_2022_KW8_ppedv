@@ -1,0 +1,20 @@
+﻿@page
+@using ASPNETCORE_RazorPage_DISample.Services;
+@inject ITimeService myService; //Alternativer Zugriff auf IOC Container 
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h2>Achtung TimeService ist hier ein Singleton </h2>
+<p>Die Urhzeit der Services ist:  @Model.TimeOutput</p>
+
+
+
+<p>Achtung ein weitere Service-Instanz von TimeService</p>
+@myService.GetTime();

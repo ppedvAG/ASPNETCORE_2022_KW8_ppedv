@@ -28,3 +28,9 @@ PPEDV-Kurs: 21.02.2022 -> ASP.NET ore
 - [ ] Entity Framework Core in ASP.NET Core
 
 - [ ] Deployment von ASP.NET-Core-Applikationen
+
+
+
+ToDos:
+-> Mergen von Konfiguationen aus mehreren Quellen
+-> Was ist mit PostConfigure 

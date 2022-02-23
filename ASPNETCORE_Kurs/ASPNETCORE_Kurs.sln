@@ -29,17 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageInNET5", "RazorPag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInversion", "DependencyInversion", "{EAEDBC0F-E013-4E58-8957-0158B6D594E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_SOLID_DependencyInversion", "SOLID_DependencyInversion\001_SOLID_DependencyInversion.csproj", "{BB184BED-A75F-4515-8C60-E6307EACEFA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_SOLID_DependencyInversion", "SOLID_DependencyInversion\001_SOLID_DependencyInversion.csproj", "{BB184BED-A75F-4515-8C60-E6307EACEFA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_DependencyInjectionSample", "DependencyInjectionSample\002_DependencyInjectionSample.csproj", "{EFAF03E8-5535-4605-A442-90BDCF21437A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_DependencyInjectionSample", "DependencyInjectionSample\002_DependencyInjectionSample.csproj", "{EFAF03E8-5535-4605-A442-90BDCF21437A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCORE_RazorPage_DISample", "ASPNETCORE_RazorPage_DISample\ASPNETCORE_RazorPage_DISample.csproj", "{9932FC9E-3CAD-47B8-AE89-7DC70765F63D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCORE_RazorPage_DISample", "ASPNETCORE_RazorPage_DISample\ASPNETCORE_RazorPage_DISample.csproj", "{9932FC9E-3CAD-47B8-AE89-7DC70765F63D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIScopeVsTransientVsSingletonSample", "DIScopeVsTransientVsSingletonSample\DIScopeVsTransientVsSingletonSample.csproj", "{E8CDA5FB-EDB0-4BFC-83A2-0936C3F6284E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konfiguration", "Konfiguration", "{D6479C33-1251-47D6-96EF-72B4C1533A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_Konfiguration_Samples", "RazorPage_Konfiguration_Samples\RazorPage_Konfiguration_Samples.csproj", "{0565476F-872C-4690-BE8B-34E3164CBAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPage_Konfiguration_Samples", "RazorPage_Konfiguration_Samples\RazorPage_Konfiguration_Samples.csproj", "{0565476F-872C-4690-BE8B-34E3164CBAB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE9DB28D-B4D3-424D-B867-6AA20EA273AE}"
 	ProjectSection(SolutionItems) = preProject
@@ -48,7 +48,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{4BAD803F-3296-436A-B565-5CF97CFE4157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingSamples", "LoggingSamples\LoggingSamples.csproj", "{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingSamples", "LoggingSamples\LoggingSamples.csproj", "{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LayoutAndFormulars", "LayoutAndFormulars", "{F1BF07D8-14F2-4350-8DB9-BC8F0E01E391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageLayoutFormularSamples", "RazorPageLayoutFormularSamples\RazorPageLayoutFormularSamples.csproj", "{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,6 +116,10 @@ Global
 		{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +142,7 @@ Global
 		{E8CDA5FB-EDB0-4BFC-83A2-0936C3F6284E} = {EAEDBC0F-E013-4E58-8957-0158B6D594E7}
 		{0565476F-872C-4690-BE8B-34E3164CBAB5} = {D6479C33-1251-47D6-96EF-72B4C1533A1B}
 		{E5AEACEB-7A4C-4131-B0B1-4E3936BAE8C0} = {4BAD803F-3296-436A-B565-5CF97CFE4157}
+		{024A0B2B-74C1-4F91-96CF-F7D982DF9BAB} = {F1BF07D8-14F2-4350-8DB9-BC8F0E01E391}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C31FBFA-3444-42DD-A402-4A42446D7378}

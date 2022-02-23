@@ -1,0 +1,166 @@
+﻿@page
+@model RazorPageLayoutFormularSamples.Pages.RazorSyntaxExamples.OverviewModel
+@{
+}
+
+<p>Ein implzieter Razorausdruck</p>
+<p>@DateTime.Now.ToShortDateString()</p>
+
+<p>Explizieter Ausdruck</p>
+<p>@(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+<p>Codeblöcke</p>
+
+@{
+    //Merhzeilige Anweisungen schreiben 
+}
+
+@("<span>Hello World </span>") @*Wird einfacher String ausgegeben*@
+<br />
+@Html.Raw("<span>Hello World </span>") @*hier wird html ausgegeben*@
+
+@{
+    //lokale Variablen kann ich hierüber erstellen (gilt in der RazorPage)
+    string name1 = "Mahatma Gandhi";
+
+    void RenderName(string name)
+    {
+        <p>Name : <strong>@name</strong></p>
+    }
+
+    
+}
+<p>Ausgabe eine lokalen Variable</p>
+@name1 
+
+<p>Aufruf einer lokalen Funktion</p>
+
+@{
+    <b>Martin Luther King</b>
+    RenderName("Martin Luther King");
+}
+<p>Beispiel</p>
+<p>@RenderName ("Tester")</p>
+
+
+@*
+    Leider muss man lokale Funktionen via CodeBlöcke aufrufen 
+    @RenderName(@name1);
+*@
+
+@for (int i = 0; i < 10; i++)
+{
+    <p>@i</p>
+}
+
+<p>Ausgabe einer For-Schleife mit Car-Objekten: </p>
+
+@for (int i = 0; i < Model.Cars.Count; i++)
+{
+    Car currentCar = Model.Cars[i];
+
+    <p>@currentCar.Id</p>
+    <p>@currentCar.Brand</p>
+    <p>@currentCar.Model</p>
+}
+
+<p>Achtung funktioert nur in RazorPages -> CodeBehind Datei wird erweitert</p>
+
+@functions
+{
+    //Blazor->RoazorCompontents -> verwendet functions
+    public string GenericMethod<T>()
+    {
+        return " a type";
+    }
+}
+
+<p>@(GenericMethod<int>())</p>
+
+
+
+@{
+    int value = 2;
+}
+<p>Ausgabe if-else</p> 
+@if (value % 2 == 0)
+{
+    <p>Ist durch 2 teilbar</p>
+}
+else
+{
+    <p>Ist nicht durch 2 teilbar</p>
+}
+
+
+<p>Ausgabe Switch</p> 
+@switch (value)
+{
+    case 2:
+        <p>value hat den Wert 2</p>
+        break;
+
+    case 3:
+        <p>hat den Wert 3</p>
+        break;
+
+    default:
+        <p>ist ein anderer Wert</p>
+        break;
+}
+
+@using RazorPageLayoutFormularSamples.Services;
+@inject  RazorPageLayoutFormularSamples.Services.IMovieService myService;
+
+<p>Ausgabe von MovieService.GetById with ID 2</p>
+@myService.GetById(2).Title
+<br />
+
+
+
+@section Scripts
+{
+    <script type="text/javascript" src="~/scripts/site.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            alert("Test");
+        });
+    </script>
+}
+
+
+
+
+@try
+{
+    //In MovieService.GetById könnte ein Fehler entstehen. Daher ist try - catch - finally auch verwendbar 
+}
+catch (Exception ex)
+{
+    <p>@ex.Message</p>
+}
+finally
+{
+    <p>the finally statement</p>
+}
+
+
+@{
+    //Flag
+object obj = new object();
+}
+
+@lock (obj)
+{
+    //myCar.Name = value
+}
+
+
+<p> Ausgabe der Partial View </p>
+<partial name="_DateTimePartialView" />
+
+@Html.Partial("_DateTimePartialView");
+
+
+

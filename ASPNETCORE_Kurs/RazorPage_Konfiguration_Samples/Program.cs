@@ -5,16 +5,25 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.Configure<PositionOptions>(
-    builder.Configuration.GetSection(PositionOptions.Position));
-
-//Default-Werte
 builder.Services.PostConfigure<PositionOptions>(myOptions =>
 {
     myOptions.Name = "Max";
     myOptions.Title = "ist mit Moritz befreundet";
 });
 
+builder.Services.Configure<PositionOptions>(
+    builder.Configuration.GetSection(PositionOptions.Position));
+
+////Default-Werte
+
+//builder.Services.PostConfigure<PositionOptions>(myOptions =>
+//{
+//    myOptions.Name = "Donald Duck";
+//    myOptions.Title = "Dr.";
+//});
+
+////Hier liegen die Konfigurationen in IConfiguration: 
+//builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
 
 
 

@@ -1,0 +1,60 @@
+﻿@page
+@model RazorPageLayoutFormularSamples.Pages.BackOffice.IndexModel
+
+
+<partial name="_MovieIndexpPartialView" />
+
+
+@if (Model.MovieList.Count == 0)
+{
+    <p>Es befinden sich keine Filme im Videoshop</p>
+}
+else
+{
+    //Wir haben Datensatz, lasst uns eine Tabelle kreeieren 
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model=>model.MovieList[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.MovieList[0].Description)
+                </th>
+                 <th>
+                    @Html.DisplayNameFor(model=>model.MovieList[0].Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.MovieList[0].Genre)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (Movie item in Model.MovieList)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Genre)
+                    </td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

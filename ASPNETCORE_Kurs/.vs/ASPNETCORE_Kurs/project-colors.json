@@ -45,7 +45,42 @@
       "ProjectGuid": "3cfbcf0f-3e1b-467d-93ab-92c209beaa48",
       "DisplayName": "BlazorAppDefaultProject",
       "ColorIndex": 7
+    },
+    "bb184bed-a75f-4515-8c60-e6307eacefa5": {
+      "ProjectGuid": "bb184bed-a75f-4515-8c60-e6307eacefa5",
+      "DisplayName": "001_SOLID_DependencyInversion",
+      "ColorIndex": 8
+    },
+    "efaf03e8-5535-4605-a442-90bdcf21437a": {
+      "ProjectGuid": "efaf03e8-5535-4605-a442-90bdcf21437a",
+      "DisplayName": "002_DependencyInjectionSample",
+      "ColorIndex": 9
+    },
+    "9932fc9e-3cad-47b8-ae89-7dc70765f63d": {
+      "ProjectGuid": "9932fc9e-3cad-47b8-ae89-7dc70765f63d",
+      "DisplayName": "ASPNETCORE_RazorPage_DISample",
+      "ColorIndex": 10
+    },
+    "e8cda5fb-edb0-4bfc-83a2-0936c3f6284e": {
+      "ProjectGuid": "e8cda5fb-edb0-4bfc-83a2-0936c3f6284e",
+      "DisplayName": "DIScopeVsTransientVsSingletonSample",
+      "ColorIndex": 11
+    },
+    "0565476f-872c-4690-be8b-34e3164cbab5": {
+      "ProjectGuid": "0565476f-872c-4690-be8b-34e3164cbab5",
+      "DisplayName": "RazorPage_Konfiguration_Samples",
+      "ColorIndex": 12
+    },
+    "fe9db28d-b4d3-424d-b867-6aa20ea273ae": {
+      "ProjectGuid": "fe9db28d-b4d3-424d-b867-6aa20ea273ae",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 13
+    },
+    "e5aeaceb-7a4c-4131-b0b1-4e3936bae8c0": {
+      "ProjectGuid": "e5aeaceb-7a4c-4131-b0b1-4e3936bae8c0",
+      "DisplayName": "LoggingSamples",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 15
 }

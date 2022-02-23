@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aab10cb1-e662-4fbc-991c-623a6c7c6e8c": {
+      "ProjectGuid": "aab10cb1-e662-4fbc-991c-623a6c7c6e8c",
+      "DisplayName": "SerilogSeqSample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

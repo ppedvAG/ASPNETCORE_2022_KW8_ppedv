@@ -1,0 +1,22 @@
+﻿@model RazorPageLayoutFormularSamples.Pages.OnlineStore.IndexModel
+
+@{
+    Movie movie = null;
+
+    if(Model.MovieList.Count != 0)
+    {
+        movie = Model.MovieList.OrderBy(p => p.Price).First();
+    }
+
+    if (movie != null)
+    {
+          <div class="card" style="background-color:orange">
+            <p>Sonderangebot</p>
+            <div class="card-body">
+                <p>@movie.Title</p>
+                <p>@movie.Price</p>
+                <a asp-page="./Details" asp-route-id="@movie.Id">Weitere Produktdetail</a>
+            </div>
+        </div>
+    }
+}

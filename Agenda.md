@@ -5,14 +5,14 @@ PPEDV-Kurs: 21.02.2022 -> ASP.NET ore
 - [ ] Visual Studio Installation
 - [ ] Umgebung und Werkzeuge
 ## Das ASP.NET Core-Gerüst
-- [ ] Startup-Klasse
+- [x] Startup-Klasse
 - [ ] Layouts
-- [ ] Dependency Injection
+- [x] Dependency Injection
+- [x] Konfiguration
+- [x] Logging
 - [ ] Middleware
 - [ ] Routing
 - [ ] View Components
-- [ ] Konfiguration
-- [ ] Logging
 - [ ] Fehlerbehandlung
 - [ ] Lokalisierung
 - [ ] Sicherheit

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RazorPageLayoutFormularSamples.Data;
 using RazorPageLayoutFormularSamples.Models;
 using RazorPageLayoutFormularSamples.Services;
 
@@ -7,15 +8,20 @@ namespace RazorPageLayoutFormularSamples.Pages.BackOffice
 {
     public class IndexModel : PageModel
     {
-        private readonly IMovieService movieSerivce;
-
+        //private readonly IMovieService movieSerivce;
+        private readonly MovieDbContext movieDbContext;
 
         public IList<Movie> MovieList { get; set; }
 
         //Wir greifen mit Konstruktor-Injektion auf den IOC Container zu und lesen unsere MovieService-Instanz herauf
-        public IndexModel(IMovieService movieService)
+        //public IndexModel(IMovieService movieService)
+        //{
+        //    //this.movieSerivce = movieService;
+        //}
+
+        public IndexModel(MovieDbContext movieDbContext)
         {
-            this.movieSerivce = movieService;
+            this.movieDbContext = movieDbContext;
         }
 
 
@@ -24,7 +30,7 @@ namespace RazorPageLayoutFormularSamples.Pages.BackOffice
         //Webseite wird im Get-Block vorbereitet > Ergebnis (HTML-Document) wird als Response, an dem Browser zurück gegeeben
         public void OnGet()
         {
-            MovieList = movieSerivce.GetAll();
+            MovieList = movieDbContext.Movies.ToList();
         }
 
 

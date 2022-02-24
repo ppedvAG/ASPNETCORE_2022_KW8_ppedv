@@ -1,6 +1,18 @@
-﻿@page
+﻿@page "{handler?}"  
 
 @model RazorPageLayoutFormularSamples.Pages.OnlineStore.IndexModel
+
+<div class="container pt-5">
+
+    @*Beim versenden des Formulares, wird die OnGet Methode angesteuert *@
+    <form method="get" action="/OnlineStore/Index?handler=filter">
+        <p>
+            Title: <input type="text" name="searchString" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+</div>
+
 
 <partial name="_MovieWithLowestPrice" />
 <partial name="_MovieIndexpPartialView" model=Model.MovieList/>

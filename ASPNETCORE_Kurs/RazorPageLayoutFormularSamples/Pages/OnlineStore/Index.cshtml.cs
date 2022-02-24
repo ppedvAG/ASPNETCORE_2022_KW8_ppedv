@@ -22,9 +22,17 @@ namespace RazorPageLayoutFormularSamples.Pages.OnlineStore
 
         //Browser called WebServer 
         //Webseite wird im Get-Block vorbereitet > Ergebnis (HTML-Document) wird als Response, an dem Browser zurück gegeeben
-        public void OnGet()
+        public void OnGet(string searchString)
         {
-            MovieList = movieSerivce.GetAll();
+            if (string.IsNullOrEmpty(searchString))
+                MovieList = movieSerivce.GetAll();
+            else
+                MovieList = movieSerivce.GetByConditions(searchString).ToList();
+        }
+
+        public void OnGetFilter(string searchString)
+        {
+            //MovieList = movieSerivce.GetByConditions(c => c.Title.Contains(searchString)).ToList();
         }
 
 

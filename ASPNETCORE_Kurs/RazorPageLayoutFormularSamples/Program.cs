@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using RazorPageLayoutFormularSamples.Data;
 using RazorPageLayoutFormularSamples.Services;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -8,11 +10,20 @@ builder.Services.AddRazorPages(options=>
     
 });
 
+
+builder.Services.AddDbContext<MovieDbContext>(options =>
+{
+    options.UseInMemoryDatabase("MovieDb");
+});
+
 builder.Services.AddSingleton<IMovieService, MovieService>();
 WebApplication app = builder.Build();
 
-
-
+//Früheste Möglichkeit auf IOC Container zuzugreifen 
+using (IServiceScope scope = app.Services.CreateScope())
+{
+    DataSeed.Init(scope.ServiceProvider);
+}
 
 
 // Configure the HTTP request pipeline.

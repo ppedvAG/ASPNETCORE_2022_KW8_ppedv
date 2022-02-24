@@ -1,6 +1,9 @@
 ﻿@model IEnumerable<Movie>
 
 
+
+
+
 @if (Model.Count() == 0)
 {
     <p>Es befinden sich keine Filme im Videoshop</p>
@@ -25,6 +28,9 @@ else
                     @Html.DisplayNameFor(model=>model.Genre)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model=>model.ReleaseYear)
+                </th>
+                <th>
 
                 </th>
             </tr>
@@ -47,8 +53,12 @@ else
                         @Html.DisplayFor(modelItem => item.Genre)
                     </td>
                     <td>
+                          @Html.DisplayFor(modelItem => item.ReleaseYear)
+                    </td>
+                    <td>
                         <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
                     </td>
+                   
                 </tr>
             }
         </tbody>

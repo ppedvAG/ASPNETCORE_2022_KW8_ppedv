@@ -1,0 +1,47 @@
+﻿@page
+@using RazorPageLayoutFormularSamples.Models
+@model RazorPageLayoutFormularSamples.Pages.BackOffice.CreateModel
+@{
+}
+
+<h4>Movie erstellen</h4>
+
+<div class="row">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Movie.Title" class="control-label"></label> <!-- Title (Variablennamen) wird hier aufgelöst-->
+            <input asp-for="Movie.Title" class="form-control" /> <!-- Title (Variableninhalt) wird hier aufgelöst-->
+            <span asp-validation-for="Movie.Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Movie.Description" class="control-label"></label> <!-- Title (Variablennamen) wird hier aufgelöst-->
+            <input asp-for="Movie.Description" class="form-control" /> <!-- Title (Variableninhalt) wird hier aufgelöst-->
+            <span asp-validation-for="Movie.Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Movie.Price" class="control-label"></label> <!-- Title (Variablennamen) wird hier aufgelöst-->
+            <input asp-for="Movie.Price" class="form-control" /> <!-- Title (Variableninhalt) wird hier aufgelöst-->
+            <span asp-validation-for="Movie.Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Movie.Genre" class="control-label"></label> <!-- Title (Variablennamen) wird hier aufgelöst-->
+            <select asp-for="Movie.Genre" class="form-control" asp-items="Html.GetEnumSelectList<RazorPageLayoutFormularSamples.Models.MovieGenre>()"></select>
+            <span asp-validation-for="Movie.Genre" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Movie.ReleaseYear" class="control-label"></label> <!-- Title (Variablennamen) wird hier aufgelöst-->
+            <input asp-for="Movie.ReleaseYear" class="form-control" />
+            <span asp-validation-for="Movie.ReleaseYear" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+@*<partial name="_ValidationScriptsPartial" />*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

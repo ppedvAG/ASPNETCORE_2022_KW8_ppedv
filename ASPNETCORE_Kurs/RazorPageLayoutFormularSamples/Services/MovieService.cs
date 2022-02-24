@@ -1,4 +1,7 @@
 ﻿using RazorPageLayoutFormularSamples.Models;
+using System.Linq.Expressions;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace RazorPageLayoutFormularSamples.Services
 {
@@ -10,15 +13,16 @@ namespace RazorPageLayoutFormularSamples.Services
         {
             _movieList = new List<Movie>();
 
-            _movieList.Add(new Movie() { Id = 1, Title = "Jurassic Park", Description = "T-Rex wird Veggie", Price = 9.99m, Genre = MovieGenre.Action });
-            _movieList.Add(new Movie() { Id = 2, Title = "Jurassic Park 2", Description = "T-Rex beginnt Grundlagenforschung", Price = 19.99m, Genre = MovieGenre.Docu });
-            _movieList.Add(new Movie() { Id = 3, Title = "Batman", Description = "Batman und Joker werden Freunde", Price = 29.99m, Genre = MovieGenre.Action });
+            _movieList.Add(new Movie() { Id = 1, Title = "Jurassic Park", Description = "T-Rex wird Veggie", Price = 9.99m,ReleaseYear=1999, Genre = MovieGenre.Action });
+            _movieList.Add(new Movie() { Id = 2, Title = "Jurassic Park 2", Description = "T-Rex beginnt Grundlagenforschung",ReleaseYear = 1999, Price = 19.99m, Genre = MovieGenre.Docu });
+            _movieList.Add(new Movie() { Id = 3, Title = "Batman", Description = "Batman und Joker werden Freunde", Price = 29.99m, ReleaseYear = 2010, Genre = MovieGenre.Action });
 
         }
 
 
         public void Add(Movie movie)
         {
+            movie.Id = _movieList.Count + 1;
             _movieList.Add(movie);
         }
 
@@ -34,6 +38,11 @@ namespace RazorPageLayoutFormularSamples.Services
         public IList<Movie> GetAll()
         {
             return _movieList;
+        }
+
+        public IEnumerable<Movie> GetByConditions(string searchString)
+        {
+            return _movieList.Where(c => c.Title.ToLower().Contains(searchString.ToLower())).ToList();
         }
 
         public Movie GetById(int? id)

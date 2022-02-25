@@ -8,7 +8,7 @@ namespace RazorPageDefaultProject.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger) #//Konstruktor wird bei jedem Seitenaurfur neu Initialisiert
+        public IndexModel(ILogger<IndexModel> logger) //Konstruktor wird bei jedem Seitenaurfur neu Initialisiert
         {
             _logger = logger;
 

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPageLayoutFormularSamples.Data;
@@ -6,6 +7,7 @@ using RazorPageLayoutFormularSamples.Services;
 
 namespace RazorPageLayoutFormularSamples.Pages.BackOffice
 {
+    [Authorize("BackOfficeUser")]
     public class IndexModel : PageModel
     {
         //private readonly IMovieService movieSerivce;

@@ -7,7 +7,6 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProj
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\bin\Debug\net6.0\RazorPageDefaultProject.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\bin\Debug\net6.0\ref\RazorPageDefaultProject.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\bin\Debug\net6.0\RazorPageDefaultProject.pdb
-C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\obj\Debug\net6.0\RazorPageDefaultProject.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\obj\Debug\net6.0\RazorPageDefaultProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\obj\Debug\net6.0\RazorPageDefaultProject.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageDefaultProject\obj\Debug\net6.0\RazorPageDefaultProject.AssemblyInfo.cs

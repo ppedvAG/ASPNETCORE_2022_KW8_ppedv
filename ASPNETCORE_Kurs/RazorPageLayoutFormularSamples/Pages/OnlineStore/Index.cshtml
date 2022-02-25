@@ -1,18 +1,64 @@
-﻿@page "{handler?}"  
-
+﻿@page
 @model RazorPageLayoutFormularSamples.Pages.OnlineStore.IndexModel
 
-<div class="container pt-5">
+@{
+    ViewData["Title"] = "Index";
+}
 
-    @*Beim versenden des Formulares, wird die OnGet Methode angesteuert *@
-    <form method="get" action="/OnlineStore/Index?handler=filter">
-        <p>
-            Title: <input type="text" name="searchString" />
-            <input type="submit" value="Filter" />
-        </p>
-    </form>
-</div>
+<h1>Index</h1>
+
+@*<p>
+    <a asp-page="Create">Create New</a>
+</p>*@
 
 
-<partial name="_MovieWithLowestPrice" />
-<partial name="_MovieIndexpPartialView" model=Model.MovieList/>
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie[0].Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie[0].Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie[0].ReleaseYear)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie[0].Genre)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model.Movie) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> 
+                    <input type="submit" asp-page-handler="buy" asp-route-id="@item.Id" value="In den Warenkorb">
+                    
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</form>

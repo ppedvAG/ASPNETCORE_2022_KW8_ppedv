@@ -7,7 +7,6 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfigurat
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\bin\Debug\net6.0\RazorPage_Konfiguration_Samples.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\bin\Debug\net6.0\ref\RazorPage_Konfiguration_Samples.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\bin\Debug\net6.0\RazorPage_Konfiguration_Samples.pdb
-C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.AssemblyInfo.cs

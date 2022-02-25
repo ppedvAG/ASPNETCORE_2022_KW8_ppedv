@@ -6,26 +6,27 @@ PPEDV-Kurs: 21.02.2022 -> ASP.NET ore
 - [ ] Umgebung und Werkzeuge
 ## Das ASP.NET Core-Gerüst
 - [x] Startup-Klasse
-- [ ] Layouts
+- [x] Layouts
 - [x] Dependency Injection
 - [x] Konfiguration
 - [x] Logging
 - [ ] Middleware
 - [ ] Routing
-- [ ] View Components
+- [ ] View Components + Lokalisierung (Ein Sample)
 - [ ] Fehlerbehandlung
-- [ ] Lokalisierung
-- [ ] Sicherheit
+- [x] Sicherheit
 ## Model-View-Controller (MVC) Pattern
-- [ ] Die Präsentationsschicht
-- [ ] RazorEngine
-- [ ] Tag Helpers
+- [x] Die Präsentationsschicht
+- [x] RazorEngine
+- [x] Tag Helpers
+- [ ] Customize Tag-Helper
 - [ ] Controller und Views
 ## Datenmodellierung mit Entity Framework Core
-- [ ] Einführung Entity Framework Core
-- [ ] Domänenmodell
-- [ ] Entitäten erstellen
-- [ ] Entity Framework Core in ASP.NET Core
+- [x] Einführung Entity Framework Core
+- [x] Domänenmodell mit Data Annotations
+- [x] Entitäten erstellen
+- [x] Entity Framework Core in ASP.NET Core ->AddDbContext...
+- [ ] Relationale Daten mit ASP.NET Core und EFCore
 
 - [ ] Deployment von ASP.NET-Core-Applikationen
 

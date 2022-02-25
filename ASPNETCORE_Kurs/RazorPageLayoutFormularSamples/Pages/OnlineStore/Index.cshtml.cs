@@ -1,44 +1,51 @@
+ï»¿#nullable disable
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using RazorPageLayoutFormularSamples.Data;
 using RazorPageLayoutFormularSamples.Models;
-using RazorPageLayoutFormularSamples.Services;
 
 namespace RazorPageLayoutFormularSamples.Pages.OnlineStore
 {
+    [AllowAnonymous]
     public class IndexModel : PageModel
     {
-        private readonly IMovieService movieSerivce;
+        private readonly RazorPageLayoutFormularSamples.Data.MovieDbContext _context;
 
-
-        public IList<Movie> MovieList { get; set; }
-
-        //Wir greifen mit Konstruktor-Injektion auf den IOC Container zu und lesen unsere MovieService-Instanz herauf
-        public IndexModel(IMovieService movieService)
+        public IndexModel(RazorPageLayoutFormularSamples.Data.MovieDbContext context)
         {
-            this.movieSerivce = movieService;
+            _context = context;
+        }
+
+        public IList<Movie> Movie { get;set; }
+
+        public async Task OnGetAsync()
+        {
+            Movie = await _context.Movies.ToListAsync();
         }
 
 
-
-        //Browser called WebServer 
-        //Webseite wird im Get-Block vorbereitet > Ergebnis (HTML-Document) wird als Response, an dem Browser zurück gegeeben
-        public void OnGet(string searchString)
+        public async Task<IActionResult> OnPostBuy(int? id)
         {
-            if (string.IsNullOrEmpty(searchString))
-                MovieList = movieSerivce.GetAll();
-            else
-                MovieList = movieSerivce.GetByConditions(searchString).ToList();
-        }
+            IList<int> idList = new List<int>();
 
-        public void OnGetFilter(string searchString)
-        {
-            //MovieList = movieSerivce.GetByConditions(c => c.Title.Contains(searchString)).ToList();
-        }
+            if (HttpContext.Session.Keys.Contains("ShoppingCart"))
+            {
+                string jsonIdList = HttpContext.Session.GetString("ShoppingCart");
+                idList = JsonConvert.DeserializeObject<List<int>>(jsonIdList);
+            }
 
+            idList.Add(id.Value);
+            string jsonString = JsonConvert.SerializeObject(idList);
+            HttpContext.Session.SetString("ShoppingCart", jsonString);
 
-        public void OnPost()
-        {
-
+            return RedirectToPage("./Index");
         }
     }
 }

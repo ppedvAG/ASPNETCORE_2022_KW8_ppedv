@@ -1,0 +1,14 @@
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\001_SOLID_DependencyInversion.exe
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\001_SOLID_DependencyInversion.deps.json
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\001_SOLID_DependencyInversion.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\001_SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\ref\001_SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\001_SOLID_DependencyInversion.pdb
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\ref\001_SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.pdb
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\001_SOLID_DependencyInversion.genruntimeconfig.cache

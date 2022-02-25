@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RazorPageLayoutFormularSamples.Data;
 using RazorPageLayoutFormularSamples.Services;
+using Microsoft.AspNetCore.Identity;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -10,16 +11,22 @@ builder.Services.AddRazorPages(options=>
     
 });
 
-
+//Intern wird bei AddDBContext -> ISeriveCollection -> AddScoped()
 builder.Services.AddDbContext<MovieDbContext>(options =>
 {
-    options.UseInMemoryDatabase("MovieDb");
+    //options.UseInMemoryDatabase("MovieDb");
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MyMovieConnectionString"));
 });
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<MovieStoreUserIdentityDb>();builder.Services.AddDbContext<MovieStoreUserIdentityDb>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MovieStoreUserIdentityDbConnection")));
+builder.Services.AddSession();
+builder.Services.AddAuthentication();
 builder.Services.AddSingleton<IMovieService, MovieService>();
 WebApplication app = builder.Build();
 
-//Früheste Möglichkeit auf IOC Container zuzugreifen 
+//Frï¿½heste Mï¿½glichkeit auf IOC Container zuzugreifen 
 using (IServiceScope scope = app.Services.CreateScope())
 {
     DataSeed.Init(scope.ServiceProvider);
@@ -31,7 +38,7 @@ if (!app.Environment.IsDevelopment())
 {
     //Produktiver Modus
 
-    //formatierte Fehlerseite für den Kunden
+    //formatierte Fehlerseite fï¿½r den Kunden
     app.UseExceptionHandler("/Error");
     
     
@@ -48,6 +55,9 @@ app.UseStaticFiles();
 
 //Generell Navigation
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseSession();
 
 app.UseAuthorization();
 

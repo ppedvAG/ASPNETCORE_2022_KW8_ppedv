@@ -1,0 +1,73 @@
+﻿@page
+@model RazorPageLayoutFormularSamples.Pages.ShoppingPayment.ShoppingCartOverviewModel
+
+@{
+    ViewData["Title"] = "ShoppingCartOverview";
+}
+
+<h1>ShoppingCartOverview</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+
+
+@if(Model.Movie.Count == 0)
+{
+    <p>Es befinden sich keine Filme im Warenkorb</p>
+}
+else
+{
+
+    <form method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Movie[0].Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Movie[0].Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Movie[0].Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Movie[0].ReleaseYear)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Movie[0].Genre)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model.Movie) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReleaseYear)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Genre)
+                    </td>
+                    <td>
+                
+                        <input type="submit" asp-page-handler="delete" asp-route-id="@item.Id" value="-">
+                
+                    </td>
+                </tr>
+        }
+            </tbody>
+    </table>
+    </form>
+}

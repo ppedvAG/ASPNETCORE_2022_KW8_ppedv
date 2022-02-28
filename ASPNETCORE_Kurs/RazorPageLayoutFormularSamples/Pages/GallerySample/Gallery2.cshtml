@@ -1,0 +1,15 @@
+﻿@page
+@model RazorPageLayoutFormularSamples.Pages.GallerySample.Gallery2Model
+@{
+}
+
+<div class="row">
+    @foreach (var item in Model.PicturePaths)
+    {
+        <div class="col-12 col-md-4">
+            <a href="~/images/@System.IO.Path.GetFileName(item)">
+                <img class="img-fluid" src="/imagegen?img=/@System.IO.Path.GetFileName(item)" />
+            </a>
+        </div>
+    }
+</div>

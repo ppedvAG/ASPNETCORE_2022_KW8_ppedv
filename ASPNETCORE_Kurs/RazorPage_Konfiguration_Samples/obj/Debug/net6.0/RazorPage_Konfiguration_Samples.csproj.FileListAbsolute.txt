@@ -25,3 +25,4 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfigurat
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.genruntimeconfig.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\bin\Debug\net6.0\MyArray.Development.json
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\bin\Debug\net6.0\MyArray.json
+C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPage_Konfiguration_Samples\obj\Debug\net6.0\RazorPage_Konfiguration_Samples.csproj.AssemblyReference.cache

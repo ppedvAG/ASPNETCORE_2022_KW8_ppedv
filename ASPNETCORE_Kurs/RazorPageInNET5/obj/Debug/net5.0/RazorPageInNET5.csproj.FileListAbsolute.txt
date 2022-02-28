@@ -9,7 +9,6 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\bin\
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\bin\Debug\net5.0\RazorPageInNET5.pdb
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\bin\Debug\net5.0\RazorPageInNET5.Views.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\bin\Debug\net5.0\RazorPageInNET5.Views.pdb
-C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\obj\Debug\net5.0\RazorPageInNET5.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\obj\Debug\net5.0\RazorPageInNET5.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\obj\Debug\net5.0\RazorPageInNET5.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\RazorPageInNET5\obj\Debug\net5.0\RazorPageInNET5.AssemblyInfo.cs

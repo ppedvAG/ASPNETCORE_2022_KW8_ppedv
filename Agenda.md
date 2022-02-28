@@ -12,14 +12,14 @@ PPEDV-Kurs: 21.02.2022 -> ASP.NET ore
 - [x] Logging
 - [ ] Middleware
 - [ ] Routing
-- [ ] View Components + Lokalisierung (Ein Sample)
+- [x] View Components + Lokalisierung (Ein Sample)
 - [ ] Fehlerbehandlung
 - [x] Sicherheit
 ## Model-View-Controller (MVC) Pattern
 - [x] Die Präsentationsschicht
 - [x] RazorEngine
 - [x] Tag Helpers
-- [ ] Customize Tag-Helper
+- [x] Customize Tag-Helper
 - [ ] Controller und Views
 ## Datenmodellierung mit Entity Framework Core
 - [x] Einführung Entity Framework Core

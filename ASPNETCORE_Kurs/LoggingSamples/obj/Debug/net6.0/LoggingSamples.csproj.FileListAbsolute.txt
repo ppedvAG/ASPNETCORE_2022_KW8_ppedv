@@ -19,7 +19,6 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\bin\D
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
-C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\obj\Debug\net6.0\LoggingSamples.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\obj\Debug\net6.0\LoggingSamples.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\obj\Debug\net6.0\LoggingSamples.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\LoggingSamples\obj\Debug\net6.0\LoggingSamples.AssemblyInfo.cs

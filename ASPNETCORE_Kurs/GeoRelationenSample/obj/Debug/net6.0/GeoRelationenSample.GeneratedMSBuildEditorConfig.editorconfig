@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GeoRelationenSample
+build_property.RootNamespace = GeoRelationenSample
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\GeoRelationenSample\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\GeoRelationenSample
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyContinents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb250aW5lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyContinents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb250aW5lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyContinents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb250aW5lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyContinents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb250aW5lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyContinents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb250aW5lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyCountries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3VudHJpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyCountries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3VudHJpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyCountries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3VudHJpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyCountries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3VudHJpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/MyCountries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3VudHJpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/GeoRelationenSample/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tq25ylslrk

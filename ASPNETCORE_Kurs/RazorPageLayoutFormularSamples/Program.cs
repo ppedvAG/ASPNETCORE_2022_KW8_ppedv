@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using RazorPageLayoutFormularSamples.Data;
 using RazorPageLayoutFormularSamples.Services;
 using Microsoft.AspNetCore.Identity;
+using RazorPageLayoutFormularSamples.Middleware;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -33,12 +34,15 @@ using (IServiceScope scope = app.Services.CreateScope())
 }
 
 
+
+//MIDDLEWARE-PIPELINE BEGIN
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     //Produktiver Modus
 
-    //formatierte Fehlerseite f�r den Kunden
+    //formatierte Fehlerseite für den Kunden
     app.UseExceptionHandler("/Error");
     
     
@@ -47,21 +51,39 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 //HTTPS 
 app.UseHttpsRedirection();
 
 //wwwroot
-app.UseStaticFiles();
+app.UseStaticFiles(); //wwwRoot
+
+
+AppDomain.CurrentDomain.SetData("BildVerzeichnis", app.Environment.WebRootPath); //wwwRoot Verzeichnis wird gespeichert
 
 //Generell Navigation
 app.UseRouting();
+
+//Indentiy UI Library
 app.UseAuthentication();
 app.UseAuthorization();
+
+//Session Middleware
 app.UseSession();
 
-app.UseAuthorization();
+#region Customize Middleware
+app.MapWhen(context => context.Request.Path.ToString().Contains("imagegen"), subapp =>
+{
+    subapp.UseThumbnailGen();
+});
+#endregion
+
+
+
 
 //RazorPage Navigation -> Pages\[SubOrdner]\Page123
 app.MapRazorPages();
+//MIDDLEWARE-PIPELINE ENDE  -> app.MapRazorPages(); ODER app.MapController 
 
 app.Run();

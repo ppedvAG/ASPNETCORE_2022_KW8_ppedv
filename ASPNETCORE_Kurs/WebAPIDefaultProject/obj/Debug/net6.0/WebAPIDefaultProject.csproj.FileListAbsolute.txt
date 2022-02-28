@@ -10,7 +10,6 @@ C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\obj\Debug\net6.0\WebAPIDefaultProject.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\obj\Debug\net6.0\WebAPIDefaultProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\obj\Debug\net6.0\WebAPIDefaultProject.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_2022_KW8_ppedv\ASPNETCORE_Kurs\WebAPIDefaultProject\obj\Debug\net6.0\WebAPIDefaultProject.AssemblyInfo.cs

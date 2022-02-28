@@ -1,0 +1,23 @@
+﻿@page
+
+@model RazorPageLayoutFormularSamples.Pages.RazorSyntaxExamples.CustomTagHelperSamplesModel
+@{
+    WebsiteContext websiteContext = new WebsiteContext()
+    {
+      Version = new Version("1.2"),
+      Approved = true,
+      CopyrightYear = 2022,
+      TagsToShow = 1
+    };
+}
+
+@Html.HelloWorldHTMLString();
+<br />
+@Html.HelloWorldString();
+<br />
+@Html.HelloWorld("Max");
+
+
+<p>Beispiel WebsiteInformation Tag-Helper</p>
+
+<website-information info=@websiteContext></website-information>

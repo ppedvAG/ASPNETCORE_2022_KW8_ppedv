@@ -1,0 +1,11 @@
+﻿@page
+@model RazorPageLayoutFormularSamples.Pages.GallerySample.Gallery1Model
+@{
+}
+
+@foreach(string currentPicturePath in Model.PicturePaths)
+{
+    <div class="col-12 col-md-4">
+        <img class="img-fluid" src="~/images/@System.IO.Path.GetFileName(currentPicturePath)" />
+    </div>
+}

@@ -1,0 +1,4 @@
+﻿Einbau einer ViewComponent:
+
+1.) Erstelle Verzeichnis in Projektmappe -> ViewComponents
+2.) ViewComponents erben von der Basisklasse -> ViewComponent

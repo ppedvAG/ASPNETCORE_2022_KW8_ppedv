@@ -187,6 +187,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/GallerySample/Gallery1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeVNhbXBsZVxHYWxsZXJ5MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/GallerySample/Gallery2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeVNhbXBsZVxHYWxsZXJ5Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/GallerySample/UploadFormular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeVNhbXBsZVxVcGxvYWRGb3JtdWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -213,6 +225,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/RazorSyntaxExamples/CustomTagHelperSamples.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF6b3JTeW50YXhFeGFtcGxlc1xDdXN0b21UYWdIZWxwZXJTYW1wbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aktueller Kurs/ASPNETCORE_2022_KW8_ppedv/ASPNETCORE_Kurs/RazorPageLayoutFormularSamples/Pages/RazorSyntaxExamples/Overview.cshtml]
